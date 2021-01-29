@@ -1,0 +1,187 @@
+html{
+	scroll-behavior: smooth;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Nanum Gothic', sans-serif;
+}
+
+
+h1{
+	font-size: 45px;
+	font-family:'Nanum Gothic', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	color: white ;
+	font-style: bold;
+}
+
+
+
+h2{
+	font-size: 30px;
+	font-family:'Nanum Gothic', sans-serif;
+	display: flex;
+	justify-content: space-around;
+	color: white ;
+	font-style: bold;
+
+}
+
+
+p{
+	font-size: 20px;
+	line-height: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: white ;
+	text-align: justify;
+}
+
+.navbar{
+	font-style:'Nanum Gothic', sans-serif;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+	font-size: 20px;
+	background-color: rgba(189,189,189,0.2);
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 75px;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	margin-right: 5%;
+	letter-spacing: 1px;
+}
+
+.logo{
+	flex: 1 1 auto;
+	margin-left: 30%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 30px
+
+}
+
+img{
+	height: auto;
+}
+
+a{
+	margin: 25px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover{
+	color: grey;
+}
+
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header {
+background-image: url('https://www.cjoint.com/doc/21_01/KAzjaX8erUW_Replik-.png');
+background-repeat: no-repeat;
+}
+
+
+.logo_img{
+	margin-top: -50px;
+	width: 180px;
+	background-repeat: no-repeat;
+}
+
+.NosValeurs{
+	display: flex;
+	justify-content: space-around;
+	background-color: black ;
+}
+
+
+.containerA{
+	background-color: black ;
+}
+
+.servicecontainer{
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+	margin-top: 100px;
+	text-align: center;
+	background-color: black ;
+}
+.width-img{
+	width: 350px;
+}
+
+
+.concept{
+    padding: 100px;
+    text-align: center;
+}
+.mc_embed_signup{
+	background-color: black;
+}
+
+
+.cataloguecontainer{
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+	margin-top: 100px;
+	text-align: center;
+	background-color: black ;
+}
+
+.titreservices{
+	background-color: black;
+}
+
+
+.new-center{
+    margin:auto;
+    text-align: justify; 
+
+ }
+ .new-center p{
+line-height:5px;
+ }
+ .new-center h5{
+     text-align: center;
+ }
+ .google{
+     width: 600px;
+     height:400px;
+ }
+ .new-center{
+ 	display: flex;
+ 	justify-content: space-around;
+ }
+
+ .reseaux{
+ 	width: 50%;
+ 	display: flex;
+ 	justify-content: space-around;
+ }
+
+ .imgreseaux{
+ 	width: 130%;
+ }
